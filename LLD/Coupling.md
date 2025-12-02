@@ -13,7 +13,7 @@ The Scenario: Imagine a Traveler who wants to go on a trip.
 
 **Code**
 
-class Car {
+```class Car {
     public void move() {
         System.out.println("Car is moving...");
     }
@@ -33,7 +33,7 @@ public class Main {
         Traveler traveler = new Traveler();
         traveler.startJourney();
     }
-}
+}```
 
 **The Difficulties We Face**
 Hard to Change: If the Traveler decides they want to ride a Bike instead of a Car, you have to open the Traveler class and rewrite the code. You are modifying existing, working code, which might introduce bugs.
